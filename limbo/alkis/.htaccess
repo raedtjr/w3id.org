@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^$ https://github.com/vocol/alkis [R=302,L]
+RewriteRule ^def/terms/(.*)$ https://github.com/vocol/alkis/terms#$1 [R=303,NE,L]
+RewriteRule ^(def|sys)/(.*)$ https://github.com/vocol/alkis/$1/$2 [R=302,L]
